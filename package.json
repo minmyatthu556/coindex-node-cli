@@ -1,0 +1,22 @@
+{
+  "name": "coindex-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "coindex": "./bin/coindex.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Min Myat",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "colors": "^1.4.0",
+    "commander": "^7.2.0",
+    "configstore": "^3.1.5",
+    "inquirer": "^8.0.0",
+    "prettier": "^2.2.1"
+  }
+}
